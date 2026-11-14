@@ -92,7 +92,7 @@ jobs:
           cd - > /dev/null
           rm -rf "$work"
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: release-files
           path: out/
