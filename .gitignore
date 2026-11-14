@@ -1,0 +1,26 @@
+# Build output
+dist/
+coverage/
+
+# Dependencies
+node_modules/
+
+# Runtime state
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+data/
+
+# Environment and credentials
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Editor and OS state
+.idea/
+.vscode/
+.DS_Store

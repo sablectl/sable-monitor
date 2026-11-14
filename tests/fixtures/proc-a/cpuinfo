@@ -1,0 +1,12 @@
+processor	: 0
+vendor_id	: GenuineIntel
+model name	: Test CPU @ 3.00GHz
+cpu MHz		: 2800.000
+cache size	: 8192 KB
+
+processor	: 1
+vendor_id	: GenuineIntel
+model name	: Test CPU @ 3.00GHz
+cpu MHz		: 3200.000
+cache size	: 8192 KB
+

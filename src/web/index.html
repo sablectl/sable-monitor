@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>Sable Monitor</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="topbar">
+      <div class="brand">SABLE MONITOR</div>
+      <div class="toolbar">
+        <div
+          id="connection"
+          class="connection"
+          role="status"
+          aria-live="polite"
+          data-state="connecting"
+        >
+          <span class="label">Stream</span>
+          <span id="connection-text">Connecting</span>
+        </div>
+        <div class="control">
+          <label for="refresh">Refresh</label>
+          <select id="refresh">
+            <option value="0">Off</option>
+            <option value="5000">5 s</option>
+            <option value="15000" selected>15 s</option>
+            <option value="30000">30 s</option>
+            <option value="60000">60 s</option>
+          </select>
+        </div>
+      </div>
+    </header>
+    <nav class="nav" aria-label="Views">
+      <ul id="nav-list"></ul>
+    </nav>
+    <main id="main" tabindex="-1">
+      <noscript>This dashboard needs JavaScript.</noscript>
+    </main>
+    <footer class="footer">
+      Sable Monitor by
+      <a href="https://sablectl.dev" rel="noopener noreferrer">Sable</a>
+    </footer>
+  </body>
+</html>
